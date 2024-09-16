@@ -1,0 +1,24 @@
+.homePage {
+  width: 100%;
+  height: auto;
+
+  > header {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px 50px 20px;
+
+    p {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 10px;
+
+      &:nth-child(4) {
+        font-size: 16px;
+      }
+
+      &:last-child {
+        font-size: 24px;
+      }
+    }
+  }
+}
